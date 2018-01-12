@@ -1,12 +1,14 @@
-<h1>Smartuino-Sailing</h1>
+![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
+
+Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'Nice Sophia
+
+# Smartuino-Sailing
 
 
 
-<h2>Mon compte rendu </h2>
 
-
-<h3>Séance1</h3> 
-    <p>Pendant la 1ère séance on a commercer à mettre en place le projet.
+# Description du projet
+Pendant la 1ère séance on a commercer à mettre en place le projet.
     
        Le Smartuino-Sailing sera un outils qui permettra aux voileux de résumer leurs courses, et sera d'une aide afin de prendre             
        les meilleurs décisions et limiter les erreurs tactiques liées aux oscillations du vent sur le plan d'eau.
@@ -14,9 +16,11 @@
        
        Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser le nombres d'erreurs pendant une course.
        En photo le résumer de la 1ére séance:
-       <img src="/home/user/Téléchargements/séance1-Ard.jpg" alt="photoS1"/>
-   </p>
-       
+
+# Materiel utilisé
+
+Notre projet est basé sur une carte Arduino Xplained d'Atmel, ...
+
 
 
 
