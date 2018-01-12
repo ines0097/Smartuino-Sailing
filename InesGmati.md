@@ -12,7 +12,7 @@
        On a cherché le matériels dont on aura besoin et leurs fonctionnements.
        Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser le nombres d'erreurs pendant une course.
        En photo le résumer de la 1ére séance:
-       <img src=séance1-Ard.jpg alt=photoS1></p>
+       <img src=./séance1-Ard.jpg alt=photoS1></p>
        
 
 
