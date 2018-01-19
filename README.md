@@ -20,15 +20,17 @@ En photo le résumer de la 1ére séance:
 
 # Materiel utilisé
 
-Notre projet est basé sur: 
+Notre projet est basé sur
 
-une carte Arduino Xplained d'Atmel:
+une carte Arduino Xplained d'Atmel,
 
-un GPS: 
+un GPS: <https://www.ebay.fr/itm/NEO-7M-GPS-Module-Built-in-Data-Memory-with-Antenna-and-USB2TTL-Replace-NEO-6M/222564891312?hash=item33d1e6bab0:g:7ukAAOSwbopZVlxj>
 
-un anémomètre:
+un anémomètre: <https://www.lextronic.fr/temperature-meteo/19999-capteur-anenometre.html>
 
-une girouettte
+une girouettte: <https://www.lextronic.fr/temperature-meteo/27643-capteur-girouette.html>
+
+un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Arduino-rotary-encoder/142256956846?hash=item211f2ce5ae:m:mNvEJYsxPSWNcwDr5aozQKQ>
 
 
 
