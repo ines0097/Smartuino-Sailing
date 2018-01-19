@@ -21,9 +21,13 @@ En photo le résumer de la 1ére séance:
 # Materiel utilisé
 
 Notre projet est basé sur: 
+
 une carte Arduino Xplained d'Atmel:
+
 un GPS: 
+
 un anémomètre:
+
 une girouettte
 
 
