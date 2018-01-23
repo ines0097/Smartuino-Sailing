@@ -18,6 +18,8 @@ Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser
 
 Afin de comprendre l'utilité du Smartuino-Sailing il faut comprendre le fonctionnement des manches pendant une régate.
 
+Les explications sont sur le diapo.
+
 # Materiel utilisé
 
 Notre projet est basé sur
