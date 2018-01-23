@@ -40,3 +40,5 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 * Vecteur vent apparent 
 * Vecteur vent réel
 
+L'angle entre 
+
