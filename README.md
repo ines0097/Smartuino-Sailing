@@ -37,8 +37,8 @@ un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Ardu
 # Concept physique
 Comme montré sur le diapo on travaillera sur 3 vecteurs: 
 * Vecteur vent vitesse : VV (en blue)
-* Vecteur vent apparent :VA (en rouge)
-* Vecteur vent réel:VR (en noire)
+* Vecteur vent apparent :VA (en noir)
+* Vecteur vent réel:VR (en rouge)
 
 ![image vecteur](https://s18.postimg.org/wqqyq28ix/Vent_App.png "image 01")
 
