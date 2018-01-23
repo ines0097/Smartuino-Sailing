@@ -39,6 +39,7 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 * Vecteur vent vitesse : VV
 * Vecteur vent apparent :VA
 * Vecteur vent réel:VR
+
 ![Google logo](https://s18.postimg.org/wqqyq28ix/Vent_App.png "image 01")
 
 
