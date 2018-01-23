@@ -36,9 +36,19 @@ un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Ardu
 
 # Concept physique
 Comme montré sur le diapo on travaillera sur 3 vecteurs: 
-* Vecteur vent vitesse 
-* Vecteur vent apparent 
-* Vecteur vent réel
+* Vecteur vent vitesse : VV
+* Vecteur vent apparent :VA
+* Vecteur vent réel:VR
 
-L'angle entre 
+on considére l'angle alpha = l'angle entre VR et VV
+
+on considére l'angle beta = l'angle entre VA et VV
+
+on a VR = sqrt(VA^2+VV^2+(2*VA*VV*cos(beta)))
+
+et a partir de cela on déduit l'angle alpha
+
+alpha = arccos((VA*cos(beta)-VV)/VR)
+
+
 
