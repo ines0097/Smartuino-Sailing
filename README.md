@@ -34,6 +34,6 @@ une girouettte: <https://www.lextronic.fr/temperature-meteo/27643-capteur-giroue
 
 un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Arduino-rotary-encoder/142256956846?hash=item211f2ce5ae:m:mNvEJYsxPSWNcwDr5aozQKQ>
 
-
-
+# Concept physique
+Comme montré sur le diapo on travaillera sur 3 vecteurs: * Vecteur vent vitesse *Vecteur vent apparent *Vecteur vent réel
 
