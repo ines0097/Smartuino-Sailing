@@ -20,7 +20,7 @@
  du vent vitesse. par rapport aux vecteurs et des angles de direction avoir la dorme et la direction du vent réel qui 
  est celui dont nous avons besoin pour choisir une direction pour le bateau.
  </p>
- <h3>Séance 3:>
+ <h3>Séance 3:</h3>
  <p> Grace à uen autre élève ayant acces au même genre de GPS que nous, nous avons pû commencer à acomprendre son 
  utilisation. Comment le programmer sur l'arduino. Avec la bonne bonne bibliothèque à télécharger. De plus que ce GPS nous 
  donnera les donnée cartésienne en x et y ainsi que la hauteur dont nous n'avons pas besoin. Des problèmes ont été rencontrer
