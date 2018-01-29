@@ -13,6 +13,8 @@ Pendant la première séance on a mis en place les idées pour le projet.
 On a approfondi les calculs pour la determination du vent réel.
 Les calculs sont affiché sur la photo qui suit:
 
+![photoCalcul](https://s20.postimg.org/5mpeuruod/calcul_VR.jpg)
+
 # Séance 3:19/01/2018
 
 on a regardé le fonctionnement d'un GPS UBLOX NEO 7M:
