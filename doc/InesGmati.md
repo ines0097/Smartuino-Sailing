@@ -19,6 +19,10 @@ Les calculs sont affiché sur la photo qui suit:
 
 on a regardé le fonctionnement d'un GPS UBLOX: [lienDuSite](https://playground.arduino.cc/UBlox/GPS)
 
+# Semaine de vacances: 29/01 au 03/02
+
+
+
 
 
 
