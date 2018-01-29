@@ -27,12 +27,16 @@ Notre projet est basé sur
 une carte Arduino Xplained d'Atmel,
 
 un GPS: <https://www.ebay.fr/itm/NEO-7M-GPS-Module-Built-in-Data-Memory-with-Antenna-and-USB2TTL-Replace-NEO-6M/222564891312?hash=item33d1e6bab0:g:7ukAAOSwbopZVlxj>
+![Gps.jpg](https://postimg.org/image/yuc1kynwp/)
 
 un anémomètre: <https://www.lextronic.fr/temperature-meteo/19999-capteur-anenometre.html>
+![image.jpg](https://postimg.org/image/binxvdh7d/)
 
 une girouettte: <https://www.lextronic.fr/temperature-meteo/27643-capteur-girouette.html>
+![gir.jpg](https://postimg.org/image/ywvx7eu0p/)
 
 un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Arduino-rotary-encoder/142256956846?hash=item211f2ce5ae:m:mNvEJYsxPSWNcwDr5aozQKQ>
+![encod.jpg](https://postimg.org/image/rr4653xu1/)
 
 # Concept physique
 Comme montré sur le diapo on travaillera sur 3 vecteurs: 
@@ -43,16 +47,5 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 ![photoVentApp](https://s20.postimg.org/kekxu3yjh/Vent_App.png)
 
 ![calcul_VR.jpg](https://s20.postimg.org/71qzjhvrf/calcul_VR.jpg)
-
-on considére l'angle alpha = l'angle entre VR et VV
-
-on considére l'angle beta = l'angle entre VA et VV
-
-on a VR = sqrt(VA^2+VV^2+(2*VA*VV*cos(beta)))
-
-et a partir de cela on déduit l'angle alpha
-
-alpha = arccos((VA*cos(beta)-VV)/VR)
-
 
 
