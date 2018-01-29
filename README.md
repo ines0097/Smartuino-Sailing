@@ -42,7 +42,7 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 
 ![photoVentApp](https://s20.postimg.org/kekxu3yjh/Vent_App.png)
 
-![calcul_VR.jpg](https://postimg.org/image/wxaq2oxl5/)
+![calcul_VR.jpg](https://s20.postimg.org/71qzjhvrf/calcul_VR.jpg)
 
 on considére l'angle alpha = l'angle entre VR et VV
 
