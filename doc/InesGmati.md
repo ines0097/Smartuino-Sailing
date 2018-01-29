@@ -7,9 +7,6 @@ Compte rendu Ines Gmati
 Pendant la première séance on a mis en place les idées pour le projet.
 
 
-
-
-
 # Séance 2:12/01/2018
 On a approfondi les calculs pour la determination du vent réel.
 Les calculs sont affiché sur la photo qui suit:
