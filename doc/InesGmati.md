@@ -17,7 +17,7 @@ Les calculs sont affiché sur la photo qui suit:
 
 # Séance 3:19/01/2018
 
-on a regardé le fonctionnement d'un GPS UBLOX NEO 7M: * [lienDuSite](https://playground.arduino.cc/UBlox/GPS)
+on a regardé le fonctionnement d'un GPS UBLOX: [lienDuSite](https://playground.arduino.cc/UBlox/GPS)
 
 
 
