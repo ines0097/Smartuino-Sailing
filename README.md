@@ -27,15 +27,19 @@ Notre projet est basé sur
 une carte Arduino Xplained d'Atmel,
 
 un GPS: <https://www.ebay.fr/itm/NEO-7M-GPS-Module-Built-in-Data-Memory-with-Antenna-and-USB2TTL-Replace-NEO-6M/222564891312?hash=item33d1e6bab0:g:7ukAAOSwbopZVlxj>
+
 ![Gps.jpg](https://postimg.org/image/yuc1kynwp/)
 
 un anémomètre: <https://www.lextronic.fr/temperature-meteo/19999-capteur-anenometre.html>
+
 ![image.jpg](https://postimg.org/image/binxvdh7d/)
 
 une girouettte: <https://www.lextronic.fr/temperature-meteo/27643-capteur-girouette.html>
+
 ![gir.jpg](https://postimg.org/image/ywvx7eu0p/)
 
 un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Arduino-rotary-encoder/142256956846?hash=item211f2ce5ae:m:mNvEJYsxPSWNcwDr5aozQKQ>
+
 ![encod.jpg](https://postimg.org/image/rr4653xu1/)
 
 # Concept physique
