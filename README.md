@@ -40,7 +40,7 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 * Vecteur vent apparent :VA (en noir)
 * Vecteur vent réel:VR (en rouge)
 
-![image vecteur](https://s18.postimg.org/wqqyq28ix/Vent_App.png "image 01")
+[Vent_App.png](https://postimg.org/image/s7blm34ih/)
 
 
 on considére l'angle alpha = l'angle entre VR et VV
