@@ -12,7 +12,7 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 
 Le Smartuino-Sailing sera un outils qui permettra aux voileux de résumer leurs courses, et sera d'une aide afin de prendre            les meilleurs décisions et limiter les erreurs tactiques liées aux oscillations du vent sur le plan d'eau.
        
-Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser le nombres d'erreurs pendant une course.
+Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser le nombres d'erreurs pendant une course et de leurs fournir un résumer des manches.
 
 Afin de comprendre l'utilité du Smartuino-Sailing il faut comprendre le fonctionnement des manches pendant une régate.
 
