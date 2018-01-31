@@ -23,7 +23,6 @@ on a regardé le fonctionnement d'un GPS UBLOX: [cliquez ici pour le lien](https
 
 Le 31/01 je suis allée à Cannes pour naviguer et partager les idées du projet avec l'entraîneur du Yach Club de Cannes.
 Ci-dessous une photo d'un compas régulariser pour les compétitions de laser:
-
 ![photoCompas](https://s20.postimg.org/bdept6eot/compas.jpg)
 
 
