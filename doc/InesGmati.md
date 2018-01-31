@@ -17,9 +17,14 @@ Les calculs sont affiché sur la photo qui suit:
 
 # Séance 3:19/01/2018
 
-on a regardé le fonctionnement d'un GPS UBLOX: [lienDuSite](https://playground.arduino.cc/UBlox/GPS)
+on a regardé le fonctionnement d'un GPS UBLOX: [cliquez ici pour le lien](https://playground.arduino.cc/UBlox/GPS)
 
-# Semaine de vacances: 29/01 au 03/02
+# Semaine de vacances: du 29/01 au 3/02
+
+Le 31/01 je suis allée à Cannes pour naviguer et partager les idées du projet avec l'entraîneur du Yach Club de Cannes.
+Ci-dessous une photo d'un compas régulariser pour les compétitions de laser:
+
+![photoCompas](https://s20.postimg.org/bdept6eot/compas.jpg)
 
 
 
