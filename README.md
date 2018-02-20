@@ -49,6 +49,7 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 
 ![calcul_VR.jpg](https://s20.postimg.org/71qzjhvrf/calcul_VR.jpg)
 
+
 #code
 
 <pre><code>
