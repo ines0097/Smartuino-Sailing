@@ -44,7 +44,6 @@ Un lien qui donne des idées sur comment faire cette convertion:[link01](https:/
   // Boucle principale:
   void loop() { 
   int BP = digitalRead(2); // Lecture du capteur 
-
   Serial.println(BP);
   if (BP == LOW) {
   digitalWrite(13, HIGH); // Allume la Led
