@@ -34,6 +34,27 @@ Récupération du matériel:[photoMatos](https://s20.postimg.org/bs0yg84y1/photo
 1ère familiarisation avec l'anémomètre.
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
 Un lien qui donne des idées sur comment faire cette convertion:[link01](https://forum.arduino.cc/index.php?topic=92398.0)
+1er code utilisé:
+
+  void setup() { 
+pinMode(13, OUTPUT); 
+pinMode(2, INPUT); 
+Serial.begin(9600);
+}
+// Boucle principale:
+void loop() { 
+int BP = digitalRead(2); // Lecture du capteur 
+
+Serial.println(BP);
+if (BP == LOW) {
+digitalWrite(13, HIGH); // Allume la Led
+Serial.println("HIGH");
+}
+else {
+digitalWrite(13, LOW); // Eteind la Led
+Serial.println("LOW");
+} 
+} 
 
 
 
