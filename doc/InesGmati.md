@@ -35,7 +35,7 @@ Récupération du matériel:[photoMatos](https://s20.postimg.org/bs0yg84y1/photo
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
 Un lien qui donne des idées sur comment faire cette convertion:[link01](https://forum.arduino.cc/index.php?topic=92398.0)
 1er code utilisé:
-
+<pre><code>
   void setup() { 
   pinMode(13, OUTPUT); 
   pinMode(2, INPUT); 
@@ -53,8 +53,9 @@ Un lien qui donne des idées sur comment faire cette convertion:[link01](https:/
   digitalWrite(13, LOW); // Eteind la Led
   Serial.println("LOW");
   } 
-  } 
-fin du code
+  }
+</pre></code>  
+
 
 
 
