@@ -29,11 +29,14 @@ Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les co
 
 # journée du 14/02
 
-Récupération du matériel:[photoMatos](https://s20.postimg.org/bs0yg84y1/photoMatos.jpg)
+Récupération du matériel:[ photoMatos](https://s20.postimg.org/bs0yg84y1/photoMatos.jpg)
+
+# journée du 20/02
 
 1ère familiarisation avec l'anémomètre.
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
-Un lien qui donne des idées sur comment faire cette convertion:[link01](https://forum.arduino.cc/index.php?topic=92398.0)
+Un lien qui donne des idées sur comment faire cette convertion:[ link01](https://forum.arduino.cc/index.php?topic=92398.0)
+
 1er code utilisé:
 <pre><code>
   void setup() { 
