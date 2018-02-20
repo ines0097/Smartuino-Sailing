@@ -32,6 +32,7 @@ Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les co
 Récupération du matériel:[ photoMatos](https://s20.postimg.org/bs0yg84y1/photoMatos.jpg)
 
 # journée du 20/02
+j'ai soudé 3 résistances, 2 connecteurs RJ11 et 4 connecteurs blancs sur la platine groove.
 
 1ère familiarisation avec l'anémomètre.
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
@@ -58,6 +59,35 @@ Un lien qui donne des idées sur comment faire cette convertion:[ link01](https:
   } 
   }
 </pre></code>  
+
+2éme code utilisé:
+<pre><code>
+  int impulsion_anemometre = 3;           //pin pour compter le nombre d'impulsion 
+int compt = 0;  //fonction pour compter le nombre d'impulsio
+float vitesse = 0;  //vitesse du vent
+float valeur = 2.4;
+void setup()
+{
+  Serial.begin(1200);
+  attachInterrupt(1,compteur,RISING); //fonction pour compter le nombre d'interruption
+}
+void loop()
+{
+   delay(1000);
+   compt = 0;
+   Serial.println("vitesse du vent en km/h: 0");
+ }
+void compteur()
+{
+    compt++;
+    Serial.println(compt);
+    vitesse = valeur*compt; //calcul de la vitesse du vent
+    delay(1000);
+    Serial.print("vitesse du vent en km/h:");
+    Serial.println(vitesse);
+    delay(1000);
+ }
+</pre></code>
 
 
 
