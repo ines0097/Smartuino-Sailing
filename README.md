@@ -18,6 +18,7 @@ Afin de comprendre l'utilité du Smartuino-Sailing il faut comprendre le fonctio
 
 Les explications sont sur la présentation pdf .
 
+
 # Materiel utilisé
 
 Notre projet est basé sur
@@ -81,4 +82,15 @@ void compteur()
 }
 </pre></code>
 
+le code utilisé pour essayer la girouette:
+<pre><code>
+void setup() {
+Serial.begin(9600);
+}
+void loop() {
+int sensorValue = analogRead(A1);
+Serial.println(sensorValue);
+delay(100); 
+}
+</pre></code>
 
