@@ -49,4 +49,34 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 
 ![calcul_VR.jpg](https://s20.postimg.org/71qzjhvrf/calcul_VR.jpg)
 
+#code
+
+<pre><code>
+int impulsion_anemometre = 3;           //pin pour compter le nombre d'impulsion 
+int compt = 0;  //fonction pour compter le nombre d'impulsio
+float vitesse = 0;  //vitesse du vent
+float valeur = 2.4;
+void setup()
+{
+  Serial.begin(1200);
+  attachInterrupt(1,compteur,RISING); //fonction pour compter le nombre d'interruption
+}
+void loop()
+{
+   delay(1000);
+   compt = 0;
+   Serial.println("vitesse du vent en km/h: 0");
+}
+void compteur()
+{
+    compt++;
+    Serial.println(compt);
+    vitesse = valeur*compt; //calcul de la vitesse du vent
+    delay(1000);
+    Serial.print("vitesse du vent en km/h:");
+    Serial.println(vitesse);
+    delay(1000);
+}
+</pre></code>
+
 
