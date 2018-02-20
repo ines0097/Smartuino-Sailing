@@ -1,5 +1,3 @@
-
-
 ![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
 Compte rendu Ines Gmati
@@ -29,12 +27,13 @@ Ci-dessous une photo d'un compas régulariser pour les compétitions de laser:
 
 Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les courses faites avec l'entraineur.
 
-# 14/02
+# journée du 14/02
 
 Récupération du matériel:[photoMatos](https://s20.postimg.org/bs0yg84y1/photoMatos.jpg)
 
 1ère familiarisation avec l'anémomètre.
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
+Un lien qui donne des idées sur comment faire cette convertion:[link01](https://forum.arduino.cc/index.php?topic=92398.0)
 
 
 
