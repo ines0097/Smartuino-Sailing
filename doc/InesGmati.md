@@ -37,25 +37,25 @@ Un lien qui donne des idées sur comment faire cette convertion:[link01](https:/
 1er code utilisé:
 
   void setup() { 
-pinMode(13, OUTPUT); 
-pinMode(2, INPUT); 
-Serial.begin(9600);
-}
-// Boucle principale:
-void loop() { 
-int BP = digitalRead(2); // Lecture du capteur 
+  pinMode(13, OUTPUT); 
+  pinMode(2, INPUT); 
+  Serial.begin(9600);
+  }
+  // Boucle principale:
+  void loop() { 
+  int BP = digitalRead(2); // Lecture du capteur 
 
-Serial.println(BP);
-if (BP == LOW) {
-digitalWrite(13, HIGH); // Allume la Led
-Serial.println("HIGH");
-}
-else {
-digitalWrite(13, LOW); // Eteind la Led
-Serial.println("LOW");
-} 
-} 
-
+  Serial.println(BP);
+  if (BP == LOW) {
+  digitalWrite(13, HIGH); // Allume la Led
+  Serial.println("HIGH");
+  }
+  else {
+  digitalWrite(13, LOW); // Eteind la Led
+  Serial.println("LOW");
+  } 
+  } 
+fin du code
 
 
 
