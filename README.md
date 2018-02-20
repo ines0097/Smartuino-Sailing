@@ -50,8 +50,9 @@ Comme montré sur le diapo on travaillera sur 3 vecteurs:
 ![calcul_VR.jpg](https://s20.postimg.org/71qzjhvrf/calcul_VR.jpg)
 
 
-#code
+# Code
 
+le code utilisé pour essayer l'anémomètre:
 <pre><code>
 int impulsion_anemometre = 3;           //pin pour compter le nombre d'impulsion 
 int compt = 0;  //fonction pour compter le nombre d'impulsio
