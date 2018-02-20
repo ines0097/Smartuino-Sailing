@@ -29,7 +29,7 @@ Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les co
 
 # 14/02
 
-Récupération du matériel:![IMG_0264.jpg](https://postimg.org/image/63unoxnmh/)
+Récupération du matériel:[photoMatos](https://s20.postimg.org/bs0yg84y1/photoMatos.jpg)
 1ère familiarisation avec l'anémomètre.
 
 
