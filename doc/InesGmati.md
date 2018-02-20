@@ -25,7 +25,12 @@ Le 31/01 je suis allée à Cannes pour naviguer et partager les idées du projet
 Ci-dessous une photo d'un compas régulariser pour les compétitions de laser:
 ![photoCompas](https://s20.postimg.org/bdept6eot/compas.jpg)
 
-Le 03/02: 
+Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les courses faites avec l'entraineur.
+
+# 14/02
+
+Récupération du matériel:![IMG_0264.jpg](https://postimg.org/image/63unoxnmh/)
+1ère familiarisation avec l'anémomètre.
 
 
 
