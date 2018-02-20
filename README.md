@@ -28,7 +28,7 @@ un GPS: <https://www.ebay.fr/itm/NEO-7M-GPS-Module-Built-in-Data-Memory-with-Ant
 
 ![Gps.jpg](https://s20.postimg.org/uxypoz2x9/Gps.jpg)
 
-un anémomètre: <https://www.lextronic.fr/temperature-meteo/19999-capteur-anenometre.html>
+un anémomètre: <https://www.lextronic.fr/temperature-meteo/19999-capteur-anenometre.html>"L'anémomètre génère la femeture cyclique d'un contact lors de sa rotation. Ce dernier est câblé entre la masse et l'entrée 0 du "CB210" (avec une résistance de tirage au +5V afin de pouvoir récupérer son signal). Le programme va détecter le front descendant du signal, puis décrémenter un compteur dont la valeur sera affichée sous la forme d'un bargraph lors de la détection du front montant du signal. Plus la vitesse de rotation sera important, moins le compteur aura le temps de diminuer et plus sa valeur sera importante (donc plus le bargraph sera "long")." (LEXTRONIX idée de base) nous au lieu du bargraph on veut afficher la vittesse du vent en noeuds.
 
 ![image.jpg](https://s20.postimg.org/4s7glxu1p/image.jpg)
 
