@@ -93,6 +93,8 @@ void compteur()
 # Séance 4:22/01/2018
 
 recherche de code plus performant pour la girouette et l'anémomètre. Pas de résultat satisfaisant pour l'instant.
+Le code de l'anémomètre ne renvoit pour l'instant que les changement d'état. On cgerche toujours à afficher la vitesse du vent en km/h.
+En ce qui concerne la girouette les valeurs afficher correspondent aux variations de la résistance, on essaie encore de transformer 16 intervalles de réssistance différents à leurs caps respectifs (ex:[0,23]--> Nord).
 
 
 
