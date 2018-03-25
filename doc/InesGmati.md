@@ -90,7 +90,7 @@ void compteur()
  }
 </pre></code>
 
-# Séance 4:22/01/2018
+# Séance 4:22/02/2018
 
 recherche de code plus performant pour la girouette et l'anémomètre. Pas de résultat satisfaisant pour l'instant.
 
