@@ -10,11 +10,11 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 
 # Description du projet
 
-Le Smartuino-Sailing sera un outils qui permettra aux voileux de résumer leurs courses, et sera d'une aide afin de prendre            les meilleurs décisions et limiter les erreurs tactiques liées aux oscillations du vent sur le plan d'eau.
+Le Smartuino-Sailing sera un outil qui permettra aux sportifs de haut niveau en voile de faire un bilan et une évaluation de leurs courses, et sera d'une aide afin de prendre les meilleurs décisions et limiter les erreurs tactiques liées aux oscillations du vent sur le plan d'eau.
        
-Le projet consiste à créer un outils qui permet aux compétiteurs de minimiser le nombres d'erreurs pendant une course et de leurs fournir un résumé des manches.
+Le projet consiste à créer un outil qui permette aux compétiteurs de minimiser le nombres d'erreurs pendant une course et de leurs fournir un résumé des manches.
 
-Afin de comprendre l'utilité du Smartuino-Sailing il faut comprendre le fonctionnement des manches pendant une régate.
+Afin de comprendre l'utilité du Smartuino-Sailing il faut comprendre comment se déroulent les manches pendant une régate.
 
 Les explications sont sur la présentation pdf .
 
@@ -41,8 +41,8 @@ un encodeur rotatif:  <https://www.ebay.fr/itm/5218-Module-encodeur-rotatif-Ardu
 ![encod.jpg](https://s20.postimg.org/griyti7f1/encod.jpg)
 
 # Concept physique
-Comme montré sur le diapo on travaillera sur 3 vecteurs: 
-* Vecteur vent vitesse : VV (en blue)
+Comme vu sur les diapo on travaillera sur 3 vecteurs: 
+* Vecteur vent vitesse : VV (en bleu)
 * Vecteur vent apparent :VA (en noir)
 * Vecteur vent réel:VR (en rouge)
 
