@@ -13,7 +13,7 @@ Pendant la première séance on a mis en place les idées pour le projet.
 On a approfondi les calculs pour la determination du vent réel.
 Les calculs sont affiché sur la photo qui suit:
 
-![photoCalcul](https://s20.postimg.org/5mpeuruod/calcul_VR.jpg)
+![photoCalcul](https://s20.postimg.cc/5mpeuruod/calcul_VR.jpg)
 
 # Séance 3:19/01/2018
 
@@ -23,14 +23,14 @@ on a regardé le fonctionnement d'un GPS UBLOX: [cliquez ici pour le lien](https
 
 Le 31/01 je suis allée à Cannes pour naviguer et partager les idées du projet avec l'entraîneur du Yach Club de Cannes.
 Ci-dessous une photo d'un compas régulariser pour les compétitions de laser:
-![photoCompas](https://s20.postimg.org/bdept6eot/compas.jpg)
+![photoCompas](https://s20.postimg.cc/bdept6eot/compas.jpg)
 
 Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les courses faites avec l'entraineur.
 
 # journée du 14/02
 
 Récupération du matériel:
-![ photoMatos](https://s20.postimg.org/h3fv0xr0t/photo_Matos.jpg)
+![ photoMatos](https://postimg.cc/image/bs0yg84y1/)
 
 # journée du 20/02
 j'ai soudé 3 résistances, 2 connecteurs RJ11 et 4 connecteurs blancs sur la platine groove.
