@@ -6,7 +6,7 @@ Compte rendu Ines Gmati
 
 Pendant la première séance on a mis en place les idées pour le projet.
 
-![résumerS01](https://s20.postimg.org/kk2h9azst/S01bis.png)
+![résumerS01](https://s20.postimg.cc/yqi849nfx/S01.png)
 
 
 # Séance 2:12/01/2018
@@ -98,6 +98,12 @@ recherche de code plus performant pour la girouette et l'anémomètre. Pas de r�
 
 Le code de l'anémomètre ne renvoit pour l'instant que les changement d'état. On cherche toujours à afficher la vitesse du vent en km/h.
 En ce qui concerne la girouette les valeurs afficher correspondent aux variations de la résistance, on essaie encore de transformer 16 intervalles de réssistance différents à leurs caps respectifs (ex:[0,23]--> Nord).
+
+# Semaine de vacances du 19/04 au 27/04
+
+Exploitation du code du GPS pour obtenir la vitesse et la direction dans laquelle le bateau avance.
+
+Le code du GPS est sur le readme.
 
 
 
