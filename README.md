@@ -3,6 +3,8 @@
 
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'Nice Sophia
 
+lien des images: <https://postimg.cc/files>
+
 # Smartuino-Sailing
 
 
