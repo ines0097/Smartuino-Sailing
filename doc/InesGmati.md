@@ -104,6 +104,9 @@ En ce qui concerne la girouette les valeurs afficher correspondent aux variation
 Exploitation du code du GPS pour obtenir la vitesse et la direction dans laquelle le bateau avance.
 
 Le code du GPS est sur le readme.
+En rentrant le longitude et la latitude donné par le GPS on retrouve bien notre position. Le GPS marche comme il faut.
+![testGPS](https://s20.postimg.cc/trnqo71bh/Test_Gps.png)
+
 
 
 
