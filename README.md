@@ -47,7 +47,7 @@ Comme vu sur les diapo on travaillera sur 3 vecteurs:
 * Vecteur vent apparent :VA (en noir)
 * Vecteur vent réel:VR (en rouge)
 
-![photoVentApp](https://s20.postimg.org/kekxu3yjh/Vent_App.png)
+![photoVentApp](https://s20.postimg.cc/kekxu3yjh/Vent_App.png)
 
 ![calcul_VR.jpg](https://s20.postimg.cc/5mpeuruod/calcul_VR.jpg)
 
