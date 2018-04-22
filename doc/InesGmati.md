@@ -30,7 +30,7 @@ Le 03/02: naviguation avec le groupe de laseristes de Cannes. Debrief sur les co
 # journée du 14/02
 
 Récupération du matériel:
-![ photoMatos](https://postimg.cc/image/bs0yg84y1/)
+![ photoMatos](https://s20.postimg.cc/h3fv0xr0t/photo_Matos.jpg)
 
 # journée du 20/02
 j'ai soudé 3 résistances, 2 connecteurs RJ11 et 4 connecteurs blancs sur la platine groove.
