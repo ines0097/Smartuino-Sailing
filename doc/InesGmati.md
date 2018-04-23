@@ -38,6 +38,9 @@ j'ai soudé 3 résistances, 2 connecteurs RJ11 et 4 connecteurs blancs sur la pl
 1ère familiarisation avec l'anémomètre.
 Problème dans la convertion **de** changement d'état **à** force de vent en noeuds. 
 Un lien qui donne des idées sur comment faire cette convertion:[ link01](https://forum.arduino.cc/index.php?topic=92398.0)
+le programme trouvé sur cette page ne nous convient pas.
+
+information  utile: 1 km/h ---> 0,539957 Knots
 
 1er code utilisé:
 <pre><code>
