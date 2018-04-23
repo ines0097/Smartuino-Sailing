@@ -104,13 +104,15 @@ En ce qui concerne la girouette les valeurs afficher correspondent aux variation
 
 # Semaine de vacances du 19/04 au 27/04
 
-On cherche à obtenir la vitesse et la direction dans laquelle le bateau avance à partir du code du GPS.
+On cherche à obtenir la vitesse et la direction dans laquelle le bateau avance à partir du code du GPS. On va partir ces informations à partir de la longitide et de la latitude.
 
 Le code du GPS est sur le readme.
 En rentrant le longitude et la latitude donné par le GPS on retrouve bien notre position. Le GPS marche comme il faut.
 ![testGPS](https://s20.postimg.cc/trnqo71bh/Test_Gps.png)
 
-Essaies sur le module bluetooth et un smartphone. 
+Essaies sur le module bluetooth et un smartphone: difficulté à connecté le module HC-06 au smartphone. Mais le module marche(la led s'allume une fois le circuit sous tension)
+
+Nouveau code pour la girouette qui devrait donné les 360°. Mais le résultat n'est pas concluant pour l'instant.
 
 
 
