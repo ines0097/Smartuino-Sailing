@@ -104,11 +104,15 @@ En ce qui concerne la girouette les valeurs afficher correspondent aux variation
 
 # Semaine de vacances du 19/04 au 27/04
 
-Exploitation du code du GPS pour obtenir la vitesse et la direction dans laquelle le bateau avance.
+On cherche à obtenir la vitesse et la direction dans laquelle le bateau avance à partir du code du GPS.
 
 Le code du GPS est sur le readme.
 En rentrant le longitude et la latitude donné par le GPS on retrouve bien notre position. Le GPS marche comme il faut.
 ![testGPS](https://s20.postimg.cc/trnqo71bh/Test_Gps.png)
+
+Essaies sur le module bluetooth et un smartphone. 
+
+
 
 
 
