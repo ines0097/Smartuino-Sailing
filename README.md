@@ -247,8 +247,8 @@ static void printStr(const char *str, int len)
 }
 </pre></code>
 
-On a trouvé un code qui nous convient qui donne la direction et la vitesse du vent apparent:
 
+On a trouvé un code qui nous convient qui donne la direction et la vitesse du vent apparent:
 <pre><code>
 #include "TimerOne.h"          // Timer Interrupt set to 2 second for read sensors
 #include <math.h>
