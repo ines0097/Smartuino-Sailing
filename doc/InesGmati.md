@@ -113,6 +113,7 @@ En rentrant le longitude et la latitude donné par le GPS on retrouve bien notre
 Essaies sur le module bluetooth et un smartphone: difficulté à connecté le module HC-06 au smartphone. Mais le module marche(la led s'allume une fois le circuit sous tension)
 
 Nouveau code pour la girouette qui devrait donné les 360°. Mais le résultat n'est pas concluant pour l'instant.
+lien intéressant pour la girouette: [link02](http://cactus.io/hookups/weather/anemometer/davis/hookup-arduino-to-davis-anemometer-software) 
 
 
 
