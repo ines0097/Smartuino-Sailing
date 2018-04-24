@@ -53,6 +53,12 @@ Comme vu sur les diapo on travaillera sur 3 vecteurs:
 
 ![calcul_VR.jpg](https://s20.postimg.cc/5mpeuruod/calcul_VR.jpg)
 
+Avec les formules de l'image au dessus: On trouve la la vitesse et la direction du vent réel.
+
+<ul>On compare la direction du VR au Cap de l'Axe du Parcours(CAP): 
+       <li>Si direction du VR > CAP: on est sur le bord rapprochant en TRI donc refusant en babord </li>
+       <li>Si direction du VR < CAP: on est sur le bord refusant en TRI donc rapprochant en babord</li>
+
 
 # Code
 
