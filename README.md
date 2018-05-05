@@ -51,6 +51,10 @@ Comme vu sur les diapo on travaillera sur 3 vecteurs:
 
 ![photoVentApp](https://s20.postimg.cc/kekxu3yjh/Vent_App.png)
 
+Sur ce lien vous trouverez un document pdf qu'on a écrit qui résume les étapes qu'on a suivi pour aboutir à la valeur de la direction du vent réel. [cliquer pour la page 1]<https://s20.postimg.cc/vfl587inh/Projet-arduino-_V2-page-001.jpg>
+
+[cliquer pour la page 2]<https://s20.postimg.cc/jdpre21p9/Projet-arduino-_V2-page-002.jpg>
+
 ![calcul_VR.jpg](https://s20.postimg.cc/5mpeuruod/calcul_VR.jpg)
 
 Avec les formules de l'image au dessus: On trouve la la vitesse et la direction du vent réel.
