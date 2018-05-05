@@ -208,7 +208,7 @@ static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
 
 static void printStr(const char *str, int len)
 {int slen = strlen(str);
- for (int i=0; i<len; ++i) {Serial.print(i<slen ? str[i] : ' ')};
+ for (int i=0; i < slen ; ++i) {Serial.print(i<slen ? str[i] : ' ')};
  smartDelay(0);}
 </pre></code>
 
