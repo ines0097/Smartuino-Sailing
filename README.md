@@ -207,7 +207,8 @@ smartDelay(0);
 }
 static void printInt(unsigned long val, bool valid, int len)
 {
-  char sz[32] = "*****************";
+
+char sz[32] = "*****************";
   if (valid)
     sprintf(sz, "%ld", val);
   sz[len] = 0;
@@ -253,8 +254,7 @@ static void printStr(const char *str, int len)
 }
 </pre></code>
 
-
 # BLUETOOTH
 
 # Construction du support
-<ul>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li>
+<ul>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li></ul>
