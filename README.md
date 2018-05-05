@@ -171,7 +171,8 @@ static void printFloat(float val, bool valid, int len, int prec)
       Serial.print('*');
     Serial.print(' ');
   }
-  else
+
+else
   {
     Serial.print(val, prec);
     int vi = abs((int)val);
@@ -207,11 +208,12 @@ static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
   printInt(d.age(), d.isValid(), 5);
   smartDelay(0);}
 
-static void printStr(const char *str, int len){
+static void printStr(const char *str, int len)
+{
 int slen = strlen(str);
- for (int i=0; i < slen ; ++i) Serial.print(i<slen ? str[i] : ' ');
- smartDelay(0);
- }
+ for (int i=0; i < slen ; ++i) 
+       Serial.print(i<slen ? str[i] : ' ');
+ smartDelay(0);}
  
 </pre></code>
 
