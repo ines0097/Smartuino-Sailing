@@ -159,7 +159,10 @@ static void smartDelay(unsigned long ms)
     while (ss.available())
       gps.encode(ss.read());
   } while (millis() - start < ms);
+
 }
+</pre></code>
+<pre><code>
 static void printFloat(float val, bool valid, int len, int prec)
 {
   if (!valid)
@@ -177,8 +180,7 @@ static void printFloat(float val, bool valid, int len, int prec)
     for (int i=flen; i<len; ++i)
       Serial.print(' ');
   }
-
-smartDelay(0);
+  smartDelay(0);
 }
 static void printInt(unsigned long val, bool valid, int len)
 {
