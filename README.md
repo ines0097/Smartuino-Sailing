@@ -160,7 +160,6 @@ static void smartDelay(unsigned long ms)
       gps.encode(ss.read());
   } while (millis() - start < ms);
 
-}
 </pre></code>
 <pre><code>
 static void printFloat(float val, bool valid, int len, int prec)
@@ -208,12 +207,9 @@ static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
   smartDelay(0);}
 
 static void printStr(const char *str, int len)
-{
-  int slen = strlen(str);
-  for (int i=0; i<len; ++i)
-    Serial.print(i<slen ? str[i] : ' ');
-  smartDelay(0);
-}
+{int slen = strlen(str);
+ for (int i=0; i<len; ++i) {Serial.print(i<slen ? str[i] : ' ')};
+ smartDelay(0);}
 </pre></code>
 
 
