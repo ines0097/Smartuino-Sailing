@@ -167,8 +167,7 @@ static void printFloat(float val, bool valid, int len, int prec)
 {
   if (!valid)
   {
-    while (len-- > 1)
-      Serial.print('*');
+    while (len-- > 1      Serial.print('*');
     Serial.print(' ');
   }
 
@@ -212,13 +211,12 @@ static void printStr(const char *str, int len)
 {
 int slen = strlen(str);
  for (int i=0; i < slen ; ++i) 
-       Serial.print(i<slen ? str[i] : ' ');
+       Serial.print( i < slen ? str[i] : ' ');
  smartDelay(0);}
- 
-</pre></code>
+ </pre></code>
 
 
-# BLUETOOTH
+<h2>Bluetooth</h2>
 
-# Construction du support
-<ul>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li></ul>
+<h2>Construction du support</h2>
+<p>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li></ul></p>
