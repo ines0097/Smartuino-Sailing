@@ -156,7 +156,8 @@ static void smartDelay(unsigned long ms)
   unsigned long start = millis();
   do
   {
-    while (ss.available())
+
+while (ss.available())
       gps.encode(ss.read());
   } while (millis() - start < ms);
 
@@ -206,10 +207,12 @@ static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
   printInt(d.age(), d.isValid(), 5);
   smartDelay(0);}
 
-static void printStr(const char *str, int len)
-{int slen = strlen(str);
- for (int i=0; i < slen ; ++i) {Serial.print(i<slen ? str[i] : ' ')};
- smartDelay(0);}
+static void printStr(const char *str, int len){
+int slen = strlen(str);
+ for (int i=0; i < slen ; ++i) Serial.print(i<slen ? str[i] : ' ');
+ smartDelay(0);
+ }
+ 
 </pre></code>
 
 
