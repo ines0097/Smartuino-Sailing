@@ -62,7 +62,8 @@ Avec les formules de l'image au dessus: On trouve la la vitesse et la direction 
 
 <ul>On compare la direction du VR au <b>Cap de l'Axe du Parcours</b>(AxeParcours): 
        <li>Si la direction du VR > AxeParcours: on est sur le bord rapprochant en TRI donc refusant en babord </li>
-       <li>Si la direction du VR < AxeParcours: on est sur le bord refusant en TRI donc rapprochant en babord</li>
+
+<li>Si la direction du VR < AxeParcours: on est sur le bord refusant en TRI donc rapprochant en babord</li>
 
 
 # Code
@@ -112,11 +113,7 @@ Le code pour le GPS:
 <pre><code>
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
-/*
-   This sample code demonstrates the normal use of a TinyGPS++ (TinyGPSPlus) object.
-   It requires the use of SoftwareSerial, and assumes that you have a
-   4800-baud serial GPS device hooked up on pins 4(rx) and 3(tx).
-*/
+
 static const int RXPin = 2, TXPin = 3;
 static const uint32_t GPSBaud = 9600;
 // The TinyGPS++ object
@@ -127,18 +124,12 @@ void setup()
 {
   Serial.begin(9600);
   ss.begin(GPSBaud);
-  Serial.println(F("FullExample.ino"));
-  Serial.println(F("An extensive example of many interesting TinyGPS++ features"));
-  Serial.print(F("Testing TinyGPS++ library v. ")); Serial.println(TinyGPSPlus::libraryVersion());
-  Serial.println(F("by Mikal Hart"));
-  Serial.println();
   Serial.println(F("Sats HDOP Latitude   Longitude   Fix  Date       Time     Date Alt    Course Speed Card  Distance Course Card  Chars Sentences Checksum"));
   Serial.println(F("          (deg)      (deg)       Age                      Age  (m)    --- from GPS ----  ---- to London  ----  RX    RX        Fail"));
   Serial.println(F("---------------------------------------------------------------------------------------------------------------------------------------"));
 }
 void loop()
 {
-  static const double LONDON_LAT = 51.508131, LONDON_LON = -0.128002;
   printInt(gps.satellites.value(), gps.satellites.isValid(), 5);
   printInt(gps.hdop.value(), gps.hdop.isValid(), 5);
   printFloat(gps.location.lat(), gps.location.isValid(), 11, 6);
@@ -148,23 +139,7 @@ void loop()
   printFloat(gps.altitude.meters(), gps.altitude.isValid(), 7, 2);
   printFloat(gps.course.deg(), gps.course.isValid(), 7, 2);
   printFloat(gps.speed.kmph(), gps.speed.isValid(), 6, 2);
-  printStr(gps.course.isValid() ? TinyGPSPlus::cardinal(gps.course.value()) : "*** ", 6);
-  unsigned long distanceKmToLondon =
-    (unsigned long)TinyGPSPlus::distanceBetween(
-      gps.location.lat(),
-      gps.location.lng(),
-      LONDON_LAT,
-      LONDON_LON) / 1000;
-  printInt(distanceKmToLondon, gps.location.isValid(), 9);
-  double courseToLondon =
-    TinyGPSPlus::courseTo(
-      gps.location.lat(),
-      gps.location.lng(),
-      LONDON_LAT,
-      LONDON_LON);
-  printFloat(courseToLondon, gps.location.isValid(), 7, 2);
-  const char *cardinalToLondon = TinyGPSPlus::cardinal(courseToLondon);
-  printStr(gps.location.isValid() ? cardinalToLondon : "*** ", 6);
+  printStr(gps.course.isValid() ? TinyGPSPlus::cardinal(gps.course.value()) : "*** ", 6)
   printInt(gps.charsProcessed(), true, 6);
   printInt(gps.sentencesWithFix(), true, 10);
   printInt(gps.failedChecksum(), true, 9);
@@ -221,30 +196,15 @@ char sz[32] = "*****************";
 }
 static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
 {
-  if (!d.isValid())
-  {
-    Serial.print(F("********** "));
-  }
-  else
-  {
-    char sz[32];
-    sprintf(sz, "%02d/%02d/%02d ", d.month(), d.day(), d.year());
-    Serial.print(sz);
-  }
+  if (!d.isValid()){Serial.print(F("********** "));}
+  else{char sz[32];sprintf(sz, "%02d/%02d/%02d ", d.month(), d.day(), d.year());Serial.print(sz);}
   
-  if (!t.isValid())
-  {
-    Serial.print(F("******** "));
-  }
+  if (!t.isValid()){Serial.print(F("******** "));}
   else
-  {
-    char sz[32];
-    sprintf(sz, "%02d:%02d:%02d ", t.hour(), t.minute(), t.second());
-    Serial.print(sz);
-  }
+  {char sz[32];sprintf(sz, "%02d:%02d:%02d ", t.hour(), t.minute(), t.second());Serial.print(sz);}
   printInt(d.age(), d.isValid(), 5);
-  smartDelay(0);
-}
+  smartDelay(0);}
+
 static void printStr(const char *str, int len)
 {
   int slen = strlen(str);
