@@ -67,8 +67,7 @@ information  utile: 1 km/h ---> 0,539957 Knots
 2éme code utilisé:
 <pre><code>
   int impulsion_anemometre = 3;           //pin pour compter le nombre d'impulsion 
-int compt = 0;  //fonction pour compter le nombre d'impulsio
-float vitesse = 0;  //vitesse du vent
+int compt = 0;  //fonction pour compter le nombre d'impulsiofloat vitesse = 0;  //vitesse du vent
 float valeur = 2.4;
 void setup()
 {
@@ -110,14 +109,14 @@ Le code du GPS est sur le readme.
 En rentrant le longitude et la latitude donné par le GPS on retrouve bien notre position. Le GPS marche comme il faut.
 ![testGPS](https://s20.postimg.cc/trnqo71bh/Test_Gps.png)
 
-Essaies sur le module bluetooth et un smartphone: difficulté à connecté le module HC-06 au smartphone. Mais le module marche(la led s'allume une fois le circuit sous tension)
+Essaies sur le module bluetooth et un smartphone: difficulté à connecté le module HC-06 au smartphone. Mais le module marche(la led s'allume une fois le circuit sous tension).
 
 Nouveau code pour la girouette qui devrait donné les 360°. Mais le résultat n'est pas concluant pour l'instant.
 
 Autres lien intéressant pour la girouette: [link02](http://cactus.io/hookups/weather/anemometer/davis/hookup-arduino-to-davis-anemometer-software) 
 
-
-
+On a consacré une journée pour mettre en commun les programmes des différents outils.
+Le code est fonctionnel, mais il nous reste quelques lignes à programmer dans le but d'afficher clairement le résultat qu'on cherche.
 
 
 
