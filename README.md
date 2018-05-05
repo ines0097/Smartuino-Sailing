@@ -202,7 +202,8 @@ static void printFloat(float val, bool valid, int len, int prec)
     for (int i=flen; i<len; ++i)
       Serial.print(' ');
   }
-  smartDelay(0);
+
+smartDelay(0);
 }
 static void printInt(unsigned long val, bool valid, int len)
 {
@@ -253,3 +254,7 @@ static void printStr(const char *str, int len)
 </pre></code>
 
 
+# BLUETOOTH
+
+# Construction du support
+<ul>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li>
