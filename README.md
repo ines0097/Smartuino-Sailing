@@ -222,4 +222,5 @@ Le module H06 n'est pas fonctionnel pour le moment
 <h2>Construction du support</h2>
 Quelques dimensions qui vont nous etre utile: Diamètre du haut de mat: 52mm  
 
-photo du montage: ![support](https://s20.postimg.cc/b1i47e5a5/support01.jpg)
+photo du montage: 
+![support](https://s20.postimg.cc/b1i47e5a5/support01.jpg)
