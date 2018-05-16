@@ -219,4 +219,5 @@ int slen = strlen(str);
 <h2>Bluetooth</h2>
 
 <h2>Construction du support</h2>
-<p>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> commingSoon</li></ul></p>
+<p>Quelques dimensions qui vont nous etre utile: <li> Diamètre du haut de mat: 52mm </li><li> photo du montage: 
+       ![support](https://s20.postimg.cc/b1i47e5a5/support01.jpg) </li></ul></p>
