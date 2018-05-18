@@ -217,7 +217,17 @@ int slen = strlen(str);
 
 
 <h2>Bluetooth</h2> 
-Le module H06 n'est pas fonctionnel pour le moment
+On utilise un module bluetooth HC06.
+
+On a crée une application grace à MIT app inventor qui permet de connecter notre téléphone à la carte arduino.
+L'idée est de saisir un axe de parcours par le télephone.
+
+Cette valeur sera comparé à la direction du vent réel déduit par le programme arduino.
+
+Et le résultat de cette comparaison sera renvoyé sur le téléphone, afin que le naviguateur puisse choisir le bord favorable.
+Voici une photo qui montre à quoi ressemble notre application pour l'instant:
+
+![photoAppli](https://s20.postimg.cc/o66z60m8d/Screenshot_2018-04-24-23-18-50.png)
 
 <h2>Construction du support</h2>
 Quelques dimensions qui vont nous etre utile: Diamètre du haut de mat: 52mm  
