@@ -74,6 +74,8 @@ void setup()
   Serial.begin(1200);
   attachInterrupt(1,compteur,RISING); //fonction pour compter le nombre d'interruption
 }
+
+
 void loop()
 {
    delay(1000);
@@ -85,7 +87,7 @@ void compteur()
     compt++;
     Serial.println(compt);
     vitesse = valeur*compt; //calcul de la vitesse du vent
-    delay(1000);
+[}    delay(1000);
     Serial.print("vitesse du vent en km/h:");
     Serial.println(vitesse);
     delay(1000);
@@ -117,6 +119,14 @@ Autres lien intéressant pour la girouette: [link02](http://cactus.io/hookups/we
 
 On a consacré une journée pour mettre en commun les programmes des différents outils.
 Le code est fonctionnel, mais il nous reste quelques lignes à programmer dans le but d'afficher clairement le résultat qu'on cherche.
+
+# 3 semaines avant le rendu
+
+J'ai rencontré beaucoup de problème avec le module bluetooth. J'ai essayée d'utiliser les branchement et les code qu'on a vu en cours mais cela n'a pas voulu marcher. J'ai donc décider d'essyer avec un autre branchement et un autre code.
+Le module marche et on a réussi à associer notre module au téléphone. 
+Le résultat de l'application écrit sur app inventor ressemble à cela pour l'instant:
+
+![photoAppli](https://s20.postimg.cc/o66z60m8d/Screenshot_2018-04-24-23-18-50.png)
 
 
 
