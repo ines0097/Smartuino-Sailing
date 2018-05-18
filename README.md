@@ -178,7 +178,8 @@ else
     int flen = prec + (val < 0.0 ? 2 : 1); // . and -
     flen += vi >= 1000 ? 4 : vi >= 100 ? 3 : vi >= 10 ? 2 : 1;
     for (int i=flen; i<len; ++i)
-      Serial.print(' ');
+
+Serial.print(' ');
   }
   smartDelay(0);
 }
@@ -217,15 +218,12 @@ int slen = strlen(str);
 
 
 <h2>Bluetooth</h2> 
+
 On utilise un module bluetooth HC06.
-
 On a crée une application grace à MIT app inventor qui permet de connecter notre téléphone à la carte arduino.
-L'idée est de saisir un axe de parcours par le télephone.
+L'idée est de saisir un axe de parcours par le télephone.Cette valeur sera comparé à la direction du vent réel déduit par le programme arduino. Et le résultat de cette comparaison sera renvoyé sur le téléphone, afin que le naviguateur puisse choisir le bord favorable.
 
-Cette valeur sera comparé à la direction du vent réel déduit par le programme arduino.
-
-Et le résultat de cette comparaison sera renvoyé sur le téléphone, afin que le naviguateur puisse choisir le bord favorable.
-Voici une photo qui montre à quoi ressemble notre application pour l'instant:
+Voici une photo qui montre à quoi ressemble notre application:
 
 ![photoAppli](https://s20.postimg.cc/o66z60m8d/Screenshot_2018-04-24-23-18-50.png)
 
